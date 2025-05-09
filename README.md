@@ -38,6 +38,19 @@ pip install -r requirements.txt
 
 ## Terminal 1
 uvicorn main:app --reload
+______________________________________
+# 🔐 OpenAI Key Required
+-	This app uses the OpenAI GPT-3.5 API.
+-	You’ll be prompted to paste your OpenAI API key in the UI.
+-	Get your API key here: https://platform.openai.com/account/api-keys
+________________________________________
+# 📌 Flow Summary
+1.	Upload a PDF
+2.	FastAPI extracts and cleans the full text
+3.	Text is sent to GPT with a summarization prompt
+4.	Streamlit UI shows the returned summary
+
+
 
 ## Terminal 2
 streamlit run app.py
