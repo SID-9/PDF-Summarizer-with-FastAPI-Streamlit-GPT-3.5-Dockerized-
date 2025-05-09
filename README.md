@@ -22,14 +22,6 @@ _______________________________________________
 | CORS Support     | `CORSMiddleware` |
 | Containerization | Docker           |
 
-________________________________________________
-# 📁 Project Structure
-.
-├── app.py            # Streamlit frontend
-├── main.py           # FastAPI backend
-├── requirements.txt  # Project dependencies
-├── Dockerfile        # Docker build file
-└── README.md         # This file
 ________________________________________
 # 🔧 Local Setup (Without Docker)
 1. Clone the repo
